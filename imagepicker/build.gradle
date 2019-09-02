@@ -41,3 +41,5 @@ dependencies {
     // 放大缩小ImageView
     implementation 'com.stevexls.widget:photoview:1.0.5'
 }
+
+apply from: '../bintray.gradle'

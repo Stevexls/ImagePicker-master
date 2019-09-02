@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
                 .choose(MimeType.ofAll(), false)
                 .showSingleMediaType(false)
                 .countable(true)        // 是否允许计数
-                .theme(R.style.Custom_Theme)
+                .theme(R.style.Custom_Theme)     // R.style.ImagePicker.Theme
                 .multiMode(true)       // 图片的选择模式 true:多选; false:单选
                 .maxSelectable(8)       // 最大选择数
                 .imageEngine(new GlideEngine())     // 图片加载器
