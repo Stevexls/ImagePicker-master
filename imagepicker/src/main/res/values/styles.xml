@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Default Theme -->
+    <style name="ImagePicker.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="topBar_background_color">@color/white</item>
+        <item name="topBar_text_color">@color/black1</item>
+        <item name="topBar_arrow_image">@mipmap/btn_back_dark_normal</item>
+        <item name="topBar_arrow_image_padding">@dimen/default_top_bar_arrow_padding</item>
+        <item name="footerBar_background_color">@color/default_footer_bar_color</item>
+        <item name="footerBar_text_color">@color/white</item>
+        <item name="footerBar_original_image_on">@mipmap/ic_preview_radio_on</item>
+        <item name="footerBar_original_image_off">@mipmap/ic_preview_radio_off</item>
+        <item name="item_check_backgroundColor">@color/ip_color_accent</item>
+        <item name="item_check_borderColor">@color/white</item>
+        <item name="item_check_image">@drawable/ic_vector_check</item>
+        <item name="item_check_textColor">@color/white</item>
+        <item name="item_image_maskColor">@color/transparent50</item>
+        <item name="media_empty_view">@mipmap/ic_empty</item>
+        <item name="media_empty_textColor">@color/black</item>
+        <item name="grid_decoration_color">@color/white</item>
+        <item name="status_bar_color">@color/white</item>
+        <item name="album_name_color">@color/default_album_name_color</item>
+        <item name="album_count_color">@color/default_album_count_color</item>
+        <item name="album_selected_color">@color/default_album_selected_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black1">#232323</color>
+    <color name="bg_press">#ebebeb</color>\
+    <color name="bg_press_material">#d4d4d4</color>
+    <color name="black_alpha_48">#30000000</color>
+    <color name="default_footer_bar_color">#393A3F</color>
+
+    <color name="ip_color_accent">#1AAD19</color>
+    <color name="ip_color_press">#ffe0e0e0</color>
+    <color name="ic_back_press">#323336</color>
+
+    <color name="default_album_name_color">#212121</color>
+    <color name="default_album_count_color">#999999</color>
+    <color name="default_album_selected_color">#1AAD19</color>
+
+    <color name="ip_camera_pre">#353535</color>
+    <color name="transparent80">#33000000</color>
+    <color name="transparent60">#66000000</color>
+    <color name="transparent50">#80000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

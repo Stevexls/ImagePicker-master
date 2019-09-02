@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<paths>
+    <!-- 代表与Environment.getExternalStorageDirectory()相同的文件路径 -->
+    <external-path
+        name="my_images"
+        path="."/>
+
+</paths>

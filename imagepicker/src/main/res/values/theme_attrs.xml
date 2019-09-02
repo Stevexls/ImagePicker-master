@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="topBar_background_color" format="reference|color" />             <!-- 顶部操作栏背景颜色 -->
+    <attr name="topBar_text_color" format="reference|color" />                   <!-- 顶部操作栏字体颜色 -->
+    <attr name="topBar_arrow_image" format="reference" />                        <!-- 顶部操作栏返回图标 -->
+    <attr name="topBar_arrow_image_padding" format="reference|dimension" />      <!-- 顶部操作栏返回图标默认padding -->
+    <attr name="footerBar_background_color" format="reference|color" />          <!-- 底部操作栏背景色 -->
+    <attr name="footerBar_text_color" format="reference|color" />                <!-- 底部操作栏字体颜色 -->
+    <attr name="footerBar_original_image_on" format="reference" />               <!-- 底部操作栏开启原图图标 -->
+    <attr name="footerBar_original_image_off" format="reference" />              <!-- 底部操作栏关闭原图图标 -->
+    <attr name="item_check_backgroundColor" format="reference|color" />          <!-- item选中时背景色 -->
+    <attr name="item_check_borderColor" format="reference|color" />              <!-- 边框背景色 -->
+    <attr name="item_check_image" format="reference" />                          <!-- 选中时标记图 -->
+    <attr name="item_check_textColor" format="reference|color" />                <!-- 选中时文字颜色 -->
+    <attr name="item_image_maskColor" format="reference|color" />                <!-- 选中时item覆盖颜色 -->
+    <attr name="media_empty_view" format="reference" />                          <!-- 相册内容为空 -->
+    <attr name="media_empty_textColor" format="reference|color" />               <!-- 相册内容为空字体颜色 -->
+    <attr name="grid_decoration_color" format="reference|color" />               <!-- RecyclerView分割线颜色 -->
+    <attr name="status_bar_color" format="reference|color" />                    <!-- 状态栏背景色 -->
+    <attr name="album_name_color" format="reference|color" />                    <!-- 相册名称 -->
+    <attr name="album_count_color" format="reference|color" />                   <!-- 相册计数 -->
+    <attr name="album_selected_color" format="reference|color" />                 <!-- 相册选中时颜色 -->
+</resources>
