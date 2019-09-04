@@ -12,7 +12,7 @@ install {
         pom {
             project {
                 packaging 'aar'
-                name 'PhotoView'     // 项目描述
+                name 'ImagePicker'     // 项目描述
                 url siteUrl
                 licenses {
                     license {
@@ -46,6 +46,11 @@ task javadoc(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
     options.encoding = "UTF-8" //添加UTF-8编码方式
+    options.charSet 'UTF-8'
+    options.author true
+    options.version true
+    options.addStringOption('Xdoclint:none', '-quiet')//方法上忽略@return和@param注解未添加说明注释
+    failOnError = false
 }
 
 task javadocJar(type: Jar, dependsOn: javadoc) {
@@ -67,7 +72,7 @@ bintray {
     pkg {
         repo = "maven"
         name = "ImagePicker"             // 数据仓库依赖第二部分
-        desc = "Implementation of ImageView for Android that supports zooming."
+        desc = "Image grid picker"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]

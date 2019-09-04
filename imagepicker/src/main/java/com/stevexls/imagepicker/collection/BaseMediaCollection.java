@@ -32,10 +32,8 @@ public abstract class BaseMediaCollection implements LoaderManager.LoaderCallbac
             MediaStore.Images.Media.SIZE,           // 图片的大小，long型  132492
             "duration",
             MediaStore.Images.Media.DATE_ADDED,
-//            MediaStore.Images.Media.WIDTH,          //图片的宽度，int型  1920
-            MediaStore.Video.Media.WIDTH,
+            MediaStore.Images.Media.WIDTH,          //图片的宽度，int型  1920
             MediaStore.Images.Media.HEIGHT,         //图片的高度，int型  1080
-
     };
 
     // 过滤(不指定相册，多个类型)

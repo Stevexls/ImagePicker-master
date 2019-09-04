@@ -3,7 +3,6 @@ package com.stevexls.imagepicker.ui;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Point;
 import android.media.MediaMetadataRetriever;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -18,7 +17,6 @@ import android.widget.Toast;
 import com.stevexls.imagepicker.R;
 import com.stevexls.imagepicker.bean.Item;
 import com.stevexls.imagepicker.bean.SelectionSpec;
-import com.stevexls.imagepicker.utils.ScreenUtils;
 import com.stevexls.photoview.PhotoView;
 
 /**
