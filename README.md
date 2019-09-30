@@ -66,7 +66,8 @@ protected void onActivityResult(int requestCode, int resultCode, @Nullable Inten
 ```
 
 ## Thanks
-- https://github.com/chrisbanes/PhotoView
+- https://github.com/zhihu/Matisse
+- https://github.com/jeasonlzy/ImagePicker
 
 ## License
 
