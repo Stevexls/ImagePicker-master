@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
                 .countable(true)        // 是否允许计数
                 .theme(R.style.Custom_Theme)     // R.style.ImagePicker.Theme
                 .multiMode(true)       // 图片的选择模式 true:多选; false:单选
-                .maxSelectable(8)       // 最大选择数
+                .maxSelectable(9)       // 最大选择数
                 .imageEngine(new GlideEngine())     // 图片加载器
                 .captureStrategy(
                         new CaptureStrategy(true, "com.stevexls.imagepickerdemo.fileprovider", "ImagePicker/Pictures")) // 前两个参数指定拍摄后保存基础路径为/mnt/sdcard,第三个参数指定自定义目的文件夹/mnt/sdcard/ImagePicker/Pictures

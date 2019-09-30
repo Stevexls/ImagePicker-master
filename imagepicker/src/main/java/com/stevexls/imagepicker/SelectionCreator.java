@@ -219,10 +219,10 @@ public class SelectionCreator {
      * @param size Maximum original size. Default value is Integer.MAX_VALUE
      * @return {@link SelectionCreator} for fluent API.
      */
-    public SelectionCreator maxOriginalSize(int size) {
-        mSelectionSpec.originalMaxSize = size;
-        return this;
-    }
+//    public SelectionCreator maxOriginalSize(int size) {
+//        mSelectionSpec.originalMaxSize = size;
+//        return this;
+//    }
 
     /**
      * Capture strategy provided for the location to save photos including internal and external

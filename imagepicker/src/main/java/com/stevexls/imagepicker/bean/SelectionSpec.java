@@ -38,7 +38,7 @@ public class SelectionSpec {
     public OnSelectedListener onSelectedListener;   // 点击监听
     public boolean originalable;            // 是否原图
     public boolean autoHideToolbar;         // 自动隐藏toolbar
-    public int originalMaxSize;             // 原始尺寸最大值
+//    public int originalMaxSize;             // 原始尺寸最大值
     public OnCheckedListener onCheckedListener;     // 是否原图选择监听
     public boolean crop;                    // 是否允许裁剪
     public boolean multiMode;               // 图片的选择模式 true:多选; false:单选
@@ -70,7 +70,7 @@ public class SelectionSpec {
         themeId = R.style.AppTheme;
         orientation = -1;
         countable = false;
-        maxSelectable = 1;
+        maxSelectable = 9;
         maxImageSelectable = 0;
         maxVideoSelectable = 0;
         if (filters != null) {
@@ -85,7 +85,7 @@ public class SelectionSpec {
         hasInited = true;
         originalable = false;
         autoHideToolbar = false;
-        originalMaxSize = Integer.MAX_VALUE;
+//        originalMaxSize = Integer.MAX_VALUE;
         onCheckedListener = null;
         crop = false;
         multiMode = false;
