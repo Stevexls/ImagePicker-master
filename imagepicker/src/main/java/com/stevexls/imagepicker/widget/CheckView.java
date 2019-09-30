@@ -105,7 +105,7 @@ public class CheckView extends View {
         if (textPaint == null) {
             textPaint = new TextPaint();
             textPaint.setAntiAlias(true);
-            textPaint.setColor(Color.WHITE);
+            textPaint.setColor(textColor);
             textPaint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
             textPaint.setTextSize(DensityUtils.dp2px(getContext(), 12));
         }
